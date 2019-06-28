@@ -1,0 +1,151 @@
+Jeffrey Weng
+APCS2 pd3
+HW07 — Xiang’s Troubles
+2017 - 02 - 15
+
+A) 2 x 2 (Not Possible)
+
+If you have 2 queens in a 2 by 2 chess board, it’ll definitely intersect in each other’s path. As one queen 
+can go left right and diagonally, therefore one queen will take up all the spaces, leaving the other queen
+With no where to be placed.  For example: 
+— Q 	
+Q — 
+
+Each Queen can only be in one row and in one column, however since Queens can go diagonally, this configuration won’t work as well.
+
+B) 3 x 3 (Not Possible)
+
+If you have 3 queens in a 3 by 3 chess board, it will not work as well, as each Queen will be bounded by one row and one column, but there will always be two Queens intersecting diagonally:
+
+Q — —  
+— — Q
+— Q — 
+
+C) 4 x 4 (Possible)
+
+If you have 4 queens, in a 4 by 4 chess board, it will work only if you do not put the Queen in the corner block. Putting it one lower and putting the Q’s in a L formation, which guarantees it to not diagonally intersect nor be in the same row or column. 
+
+Possible solutions(2): 
+— — Q —	
+Q — — —	
+— — — Q	 
+— Q — — 	 
+
+— Q — — 
+— — — Q
+Q — — — 
+— — Q —
+
+D) 5 x 5(Possible)
+
+If you have 5 Queens, in a 5 by 5 chess board, it will work if you place the Queens in the corner block. 
+Using a similar method to the 4 x 4, placing it in L formations, will create possible solutions. 
+
+Possible solutions(4):
+Q — — — — 	 
+— — — Q — 	
+— Q — — — 	
+— — — — Q		 
+— — Q — — 	
+
+— — — — Q
+— Q — — —
+— — — Q — 
+Q — — — — 
+— — Q — — 
+
+— — Q — —
+— — — — Q
+— Q — — — 
+— — — Q — 
+Q — — — — 
+
+— — Q — —
+Q — — — —
+— — — Q —
+— Q — — — 
+— — — — Q
+
+E) 6 x 6(Possible)
+
+If you have 6 Queens, in a 6 x 6 chess board, it will not work if you put the Queens in the corner block. Putting it one lower and putting the Q’s in L formation, will grant you Queens that don’t intersect.
+
+Possible Solutions(2):
+
+— — — Q — — 
+Q — — — — — 
+— — — — Q — 
+— Q — — — —
+— — — — — Q
+— — Q — — — 
+
+— — Q— — —  
+— — — — — Q
+— Q — — — — 
+— — — — Q —
+Q — — — — —
+— — — Q — — 
+
+F) 7 x 7(Possible)
+
+If you have 7 Queens, in a 7 x7 chess board, it will work if you put the Queens in the corner block and follow the L formation format. 
+
+Possible Solutions(4)
+Q — — — — — —  
+— — — — Q — — 
+— Q — — — — — 
+— — — — — Q — 
+— — Q — — — — 
+— — — — — — Q
+— — — Q — — — 
+
+— — — — — — Q 
+— — Q — — — — 
+— — — — — Q — 
+— Q — — — — — 
+— — — — Q — — 
+Q — — — — — —
+— — — Q — — — 
+
+— — — Q — — —  
+— — — — — — Q
+— — Q — — — — 
+— — — — — Q — 
+— Q — — — — — 
+— — — — Q — —
+Q — — — — — — 
+
+— — — Q — — — 
+Q — — — — — — 
+— — — — Q — — 
+— Q — — — — — 
+— — — — — Q — 
+— — Q — — — —
+— — — — — — Q
+
+G) 8 x 8 (possible)
+
+If you have 8 Queens, in a 8 x 8 chess board, I it will not work if you put the Queens in the corner block. Putting it one lower and putting the Q’s in L formation, will grant you Queens that don’t intersect.
+
+Possible Solutions(2)
+— — — — — Q — —  	 
+Q — — — — — — — 		
+— — — — Q — — — 		 
+— Q— — — — — —		
+— — — — — — — Q		
+— — Q — — — — —	 	 
+— — — — — — Q —		
+— — — Q — — — — 		
+
+
+— — Q — — — — —
+— — — — — — — Q
+— — — Q — — — —
+— — — — — — Q — 
+Q — — — — — — — 
+— — —  — — Q — —
+— Q — — — — — — 
+— — — — Q — — — 
+
+
+ 

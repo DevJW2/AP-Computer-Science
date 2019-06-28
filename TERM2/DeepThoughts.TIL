@@ -1,0 +1,33 @@
+//Jeffrey Weng 
+//APCS2 pd3
+//HW11 — Probing the Depths…
+//2017-03-02
+
+Execution for my Knight’s Tour Algorithm:
+  n=5   1406.6533 milliseconds    over 10 executions 
+  n=6   4959.0317 milliseconds    over 10 executions
+  n=7   Too long     over __ executions
+  n=8   Too long    over __ executions
+
+Q1: From any starting position, can an open tour always be found? Explain.
+
+I think there’s a multitude of ways to generate tours for each starting position, and for that reason, I think it is much more reasonable to think that an open tour can be found. Unless the board is impossible to do a Knight’s tour, it is possible to have a tour at each starting position, which means that there can’t be one position that only leads to a closed tour. You can see this with smaller boards such as the 5x5 board.
+Q2: Same, but for closed tour.
+This is harder to say, because a closed tour will have a certain requirement that has the knight linking its entire tour. I’ll say this is a no, since I’ve tried with odd number boards, and it without any luck, I couldn’t reach the original position. 
+
+Q3: How do you explain the increase in execution time as n increases?
+As the board increases, backtracking increases, and you have way more recursive things going on, which will lead to increased time. 
+
+Q4: Thoughts on optimization?
+Printing out the board and the placement of the numbers, take up more time. Remove that to optimize the times. 
+
+Section Deux
+
+Algorithm for a way out of a maze
+1) Look for open paths, that is not your path or a path you have already taken
+2) Go on a path
+3) Follow path until you either reach an intersection/blockade/end
+4) if you reach intersection, start back at step 1
+5) if you reach a blockade, backtrack back to the last intersection and start back at step 1
+6)if you reach the end, then exit
+

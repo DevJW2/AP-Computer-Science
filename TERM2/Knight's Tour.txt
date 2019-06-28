@@ -1,0 +1,14 @@
+Jeffrey Weng 
+APCS2 pd3
+HW09
+2017-02-27
+
+Knight’s Tour Algorithm
+
+1) Place knight in the first column in the chess board 
+2) Generate positions that the knight can go
+3) If there’s no open position, go to another position in the same column and delete the past knight 
+Or, backtrack and delete the past placed knight and go to a new position
+4) Recursively make the knight travel to an open position
+5) Make open position into unplaceable position after landing
+6) Repeat: start at step 2
