@@ -1,3 +1,6 @@
 [submodule "Projects/Jojo"]
 	path = Projects/Jojo
 	url = git@github.com:Yuqiwu/Jojo.git
+[submodule "Projects/Jerms"]
+	path = Projects/Jerms
+	url = git@github.com:DevJW2/Jerms.git
