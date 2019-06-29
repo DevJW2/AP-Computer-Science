@@ -10,3 +10,6 @@
 [submodule "Projects/YoRPG_JIM"]
 	path = Projects/YoRPG_JIM
 	url = git@github.com:ilam1/YoRPG_JIM.git
+[submodule "Projects/Octopi"]
+	path = Projects/Octopi
+	url = git@github.com:MrEricL/Octopi.git
