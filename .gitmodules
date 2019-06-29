@@ -4,3 +4,6 @@
 [submodule "Projects/Jerms"]
 	path = Projects/Jerms
 	url = git@github.com:DevJW2/Jerms.git
+[submodule "Projects/JVN"]
+	path = Projects/JVN
+	url = git@github.com:DevJW2/JVN.git
