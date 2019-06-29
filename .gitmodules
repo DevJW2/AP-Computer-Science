@@ -7,3 +7,6 @@
 [submodule "Projects/JVN"]
 	path = Projects/JVN
 	url = git@github.com:DevJW2/JVN.git
+[submodule "Projects/YoRPG_JIM"]
+	path = Projects/YoRPG_JIM
+	url = git@github.com:ilam1/YoRPG_JIM.git
