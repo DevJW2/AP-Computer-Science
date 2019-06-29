@@ -1,0 +1,3 @@
+[submodule "Projects/Jojo"]
+	path = Projects/Jojo
+	url = git@github.com:Yuqiwu/Jojo.git
