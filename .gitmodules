@@ -16,3 +16,6 @@
 [submodule "Projects/AstroJellies"]
 	path = Projects/AstroJellies
 	url = git@github.com:DevJW2/AstroJellies.git
+[submodule "Projects/RealTime"]
+	path = Projects/RealTime
+	url = git@github.com:TakingTheL/RealTime.git
