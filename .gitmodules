@@ -13,3 +13,6 @@
 [submodule "Projects/Octopi"]
 	path = Projects/Octopi
 	url = git@github.com:MrEricL/Octopi.git
+[submodule "Projects/AstroJellies"]
+	path = Projects/AstroJellies
+	url = git@github.com:DevJW2/AstroJellies.git
